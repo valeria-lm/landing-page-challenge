@@ -1,0 +1,27 @@
+.waves-vector {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 45%;
+  bottom: -5rem;
+  width: 13rem;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    color: $primary-color-orange;
+    background-color: $bg-color-light-orange;
+    border-radius: 5rem;
+    box-shadow: 8px 8px 16px $shadow-color-grey,
+      -8px -8px 16px $shadow-color-light-orange;
+  }
+}

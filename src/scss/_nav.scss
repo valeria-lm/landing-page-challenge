@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 6rem;
+  font-weight: 500;
+
+  .nav__linkers {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .nav__access {
+    display: flex;
+    gap: 2rem;
+
+    div {
+      padding: 0.8rem 2.5rem;
+      border-radius: 5rem;
+      box-shadow: 8px 8px 16px $shadow-color-grey, -8px -8px 16px $shadow-color-light-orange;
+    }
+
+    &--login {
+      background-color: $bg-color-light-orange;
+    }
+
+    &--signup {
+      color: $white-color;
+      background-color: $primary-color-orange;
+    }
+  }
+}
